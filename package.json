@@ -1,0 +1,15 @@
+{
+  "name": "sayed-tailwind",
+  "version": "1.0.0",
+  "description": "beginner tutorial from dave gray channel on youtube",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "tailwind": "npx tailwindcss -i ./src/input.css -o ./build/output.css --watch",
+    "prettier": "npx prettier --write **/*.html"
+  },
+  "author": "sayedaladway",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier-plugin-tailwind": "^2.2.12"
+  }
+}
