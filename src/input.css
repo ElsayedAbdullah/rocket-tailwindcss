@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-.radial-bg {
-  background: radial-gradient(aqua, rgb(73, 73, 238));
+@layer utilities {
+  .section-min-height {
+    min-height: calc(100vh - 68px);
+  }
 }
